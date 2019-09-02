@@ -8,5 +8,6 @@
 </head>
 <body>
 <h2>Welcome to Easy Customer Relation Management</h2>
+<a href="../customer/list-customers">Customer List</a>
 </body>
 </html>
