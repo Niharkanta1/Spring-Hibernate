@@ -1,0 +1,12 @@
+2019-03-05 16:26:28.416 [restartedMain] c.m.m.MyErpSystemApplication             : Starting MyErpSystemApplication on INHYNNTRIPATHY1 with PID 29556 (C:\SpringWorkSpace\myERPSystem\target\classes started by ntripathy in C:\SpringWorkSpace\myERPSystem)
+2019-03-05 16:26:28.416 [restartedMain] c.m.m.MyErpSystemApplication             : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-05 16:26:28.416 [restartedMain] c.m.m.MyErpSystemApplication             : No active profile set, falling back to default profiles: default
+2019-03-05 16:26:29.148 [restartedMain] c.m.m.MyErpSystemApplication             : Started MyErpSystemApplication in 0.761 seconds (JVM running for 683.124)
+2019-03-05 16:26:38.841 [restartedMain] c.m.m.MyErpSystemApplication             : Starting MyErpSystemApplication on INHYNNTRIPATHY1 with PID 29556 (C:\SpringWorkSpace\myERPSystem\target\classes started by ntripathy in C:\SpringWorkSpace\myERPSystem)
+2019-03-05 16:26:38.847 [restartedMain] c.m.m.MyErpSystemApplication             : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-05 16:26:38.847 [restartedMain] c.m.m.MyErpSystemApplication             : No active profile set, falling back to default profiles: default
+2019-03-05 16:26:39.653 [restartedMain] c.m.m.MyErpSystemApplication             : Started MyErpSystemApplication in 0.838 seconds (JVM running for 693.63)
+2019-03-05 16:26:41.284 [restartedMain] c.m.m.MyErpSystemApplication             : Starting MyErpSystemApplication on INHYNNTRIPATHY1 with PID 29556 (C:\SpringWorkSpace\myERPSystem\target\classes started by ntripathy in C:\SpringWorkSpace\myERPSystem)
+2019-03-05 16:26:41.284 [restartedMain] c.m.m.MyErpSystemApplication             : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-05 16:26:41.284 [restartedMain] c.m.m.MyErpSystemApplication             : No active profile set, falling back to default profiles: default
+2019-03-05 16:26:41.939 [restartedMain] c.m.m.MyErpSystemApplication             : Started MyErpSystemApplication in 0.683 seconds (JVM running for 695.915)

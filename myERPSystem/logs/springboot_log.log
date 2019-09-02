@@ -1,0 +1,1144 @@
+[DEBUG] 2019-03-05 16:32:09.542 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-05 16:32:09.542 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 2346 ms
+[DEBUG] 2019-03-05 16:32:10.044 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-05 16:32:10.158 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-05 16:32:10.229 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-05 16:32:10.244 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-05 16:32:10.253 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-05 16:32:30.796 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-05 16:32:30.797 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-05 16:32:30.807 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-05 16:32:30.808 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 12 ms
+[DEBUG] 2019-03-05 16:32:30.827 [http-nio-8080-exec-1] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 16:32:30.836 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:32:30.859 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:32:30.859 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 16:32:30.864 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 16:32:31.374 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:32:31.385 [http-nio-8080-exec-1] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 16:32:31.387 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:32:31.388 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:32:31.388 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 16:32:31.388 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 16:32:31.389 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:32:33.216 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:32:33.219 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:32:33.221 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:32:33.221 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:32:33.221 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:32:33.374 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:32:33.401 [http-nio-8080-exec-3] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:32:33.406 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:32:33.410 [http-nio-8080-exec-3] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:32:33.411 [http-nio-8080-exec-3] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:32:33.423 [http-nio-8080-exec-3] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:32:33.436 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:32:33.456 [http-nio-8080-exec-3] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:32:33.463 [http-nio-8080-exec-3] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:32:33 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:32:33.499 [http-nio-8080-exec-3] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:36:27.808 [http-nio-8080-exec-5] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 16:36:27.812 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:36:27.813 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:36:27.814 [http-nio-8080-exec-5] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 16:36:27.814 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 16:36:27.935 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:36:31.807 [http-nio-8080-exec-6] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:36:31.809 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:36:31.810 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:36:31.810 [http-nio-8080-exec-6] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:36:31.810 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:36:31.813 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:36:31.824 [http-nio-8080-exec-7] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:36:31.826 [http-nio-8080-exec-7] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:36:31.828 [http-nio-8080-exec-7] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:36:31.828 [http-nio-8080-exec-7] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:36:31.830 [http-nio-8080-exec-7] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:36:31.832 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:36:31.833 [http-nio-8080-exec-7] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:36:31.833 [http-nio-8080-exec-7] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:36:31 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:36:31.834 [http-nio-8080-exec-7] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:37:32.477 [http-nio-8080-exec-9] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:37:32.479 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:37:32.480 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:37:32.480 [http-nio-8080-exec-9] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:37:32.480 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:37:32.593 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:37:32.606 [http-nio-8080-exec-10] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:37:32.608 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:37:32.609 [http-nio-8080-exec-10] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:37:32.610 [http-nio-8080-exec-10] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:37:32.610 [http-nio-8080-exec-10] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:37:32.612 [http-nio-8080-exec-10] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:37:32.613 [http-nio-8080-exec-10] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:37:32.613 [http-nio-8080-exec-10] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:37:32 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:37:32.615 [http-nio-8080-exec-10] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:37:32.641 [http-nio-8080-exec-1] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:37:32.642 [http-nio-8080-exec-1] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:37:32.643 [http-nio-8080-exec-1] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:37:32.643 [http-nio-8080-exec-1] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:37:32.644 [http-nio-8080-exec-1] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:37:32.645 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:37:32.645 [http-nio-8080-exec-1] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:37:32.645 [http-nio-8080-exec-1] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:37:32 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:37:32.646 [http-nio-8080-exec-1] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:37:42.879 [http-nio-8080-exec-2] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-05 16:37:42.881 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:37:43.091 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:37:43.091 [http-nio-8080-exec-2] JstlView - View name 'welcome', model {login=com.myInstitute.myERPSystem.model.Student@3bd3ba64, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-05 16:37:43.091 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/welcome.jsp]
+[DEBUG] 2019-03-05 16:37:43.186 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:37:43.204 [http-nio-8080-exec-3] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:37:43.205 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:37:43.207 [http-nio-8080-exec-3] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:37:43.207 [http-nio-8080-exec-3] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:37:43.210 [http-nio-8080-exec-3] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:37:43.213 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:37:43.214 [http-nio-8080-exec-3] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:37:43.214 [http-nio-8080-exec-3] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:37:43 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:37:43.216 [http-nio-8080-exec-3] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:37:44.878 [http-nio-8080-exec-4] DispatcherServlet - GET "/list-todos", parameters={}
+[DEBUG] 2019-03-05 16:37:44.880 [http-nio-8080-exec-4] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:37:44.881 [http-nio-8080-exec-4] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:37:44.881 [http-nio-8080-exec-4] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:37:44.882 [http-nio-8080-exec-4] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:37:44.883 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-05 16:37:44.888 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-05 16:37:44.891 [http-nio-8080-exec-4] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:41:30.614 [http-nio-8080-exec-6] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 16:41:30.618 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:41:30.619 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:41:30.619 [http-nio-8080-exec-6] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 16:41:30.619 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 16:41:30.624 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:41:32.538 [http-nio-8080-exec-7] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:41:32.539 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:41:32.541 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:41:32.541 [http-nio-8080-exec-7] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:41:32.541 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:41:32.544 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:41:32.556 [http-nio-8080-exec-8] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:41:32.557 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:41:32.559 [http-nio-8080-exec-8] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-05 16:41:32.559 [http-nio-8080-exec-8] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-05 16:41:32.560 [http-nio-8080-exec-8] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-05 16:41:32.561 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-05 16:41:32.561 [http-nio-8080-exec-8] HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+[DEBUG] 2019-03-05 16:41:32.561 [http-nio-8080-exec-8] HttpEntityMethodProcessor - Writing [{timestamp=Tue Mar 05 16:41:32 IST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2019-03-05 16:41:32.562 [http-nio-8080-exec-8] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-05 16:51:58.934 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-05 16:51:58.934 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 625 ms
+[DEBUG] 2019-03-05 16:51:59.155 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-05 16:51:59.207 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-05 16:51:59.215 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-05 16:51:59.221 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-05 16:51:59.226 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-05 16:54:02.076 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-05 16:54:02.076 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-05 16:54:02.084 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-05 16:54:02.085 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 9 ms
+[DEBUG] 2019-03-05 16:54:02.087 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:54:02.088 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:54:02.093 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:54:02.093 [http-nio-8080-exec-1] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:54:02.093 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:54:02.193 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:54:02.216 [http-nio-8080-exec-2] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 16:54:02.217 [http-nio-8080-exec-3] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:54:02.219 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:54:02.220 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:54:02.227 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:54:02.227 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:54:29.085 [http-nio-8080-exec-4] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 16:54:29.086 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 16:54:29.087 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 16:54:29.087 [http-nio-8080-exec-4] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 16:54:29.088 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 16:54:29.094 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:54:29.110 [http-nio-8080-exec-5] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 16:54:29.110 [http-nio-8080-exec-6] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 16:54:29.111 [http-nio-8080-exec-5] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:54:29.111 [http-nio-8080-exec-6] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 16:54:29.116 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 16:54:29.116 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:42:11.686 [http-nio-8080-exec-9] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:42:11.687 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:42:11.687 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:42:11.687 [http-nio-8080-exec-9] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:42:11.688 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:42:11.790 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:42:11.811 [http-nio-8080-exec-10] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 17:42:11.812 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 17:42:11.815 [http-nio-8080-exec-10] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 17:43:56.855 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:43:56.856 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:43:56.857 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:43:56.857 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:43:56.857 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:43:56.945 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:44:12.755 [http-nio-8080-exec-3] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:44:12.756 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:44:12.758 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:44:12.758 [http-nio-8080-exec-3] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:44:12.759 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:44:12.837 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:44:32.752 [http-nio-8080-exec-4] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:44:32.754 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:44:32.755 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:44:32.755 [http-nio-8080-exec-4] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:44:32.755 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:44:32.831 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:44:58.093 [http-nio-8080-exec-6] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:44:58.094 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:44:58.094 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:44:58.094 [http-nio-8080-exec-6] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:44:58.094 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:44:58.165 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:45:17.453 [http-nio-8080-exec-5] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:45:17.454 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:45:17.454 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:45:17.454 [http-nio-8080-exec-5] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:45:17.455 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:45:17.527 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:46:26.007 [http-nio-8080-exec-8] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:46:26.009 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:46:26.010 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:46:26.010 [http-nio-8080-exec-8] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:46:26.010 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:46:26.095 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:47:14.580 [http-nio-8080-exec-9] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:47:14.581 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:47:14.582 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:47:14.582 [http-nio-8080-exec-9] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:47:14.582 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:47:14.663 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:47:14.677 [http-nio-8080-exec-10] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 17:47:14.678 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 17:47:14.680 [http-nio-8080-exec-10] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 17:50:46.399 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:50:46.401 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:50:46.402 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:50:46.403 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:50:46.403 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:50:46.498 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:51:45.285 [http-nio-8080-exec-3] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:51:45.286 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:51:45.287 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:51:45.287 [http-nio-8080-exec-3] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:51:45.287 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:51:45.364 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:51:46.461 [http-nio-8080-exec-4] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:51:46.462 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:51:46.463 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:51:46.463 [http-nio-8080-exec-4] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:51:46.463 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:51:46.464 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:51:46.725 [http-nio-8080-exec-6] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:51:46.726 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:51:46.726 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:51:46.726 [http-nio-8080-exec-6] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:51:46.726 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:51:46.727 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:53:27.835 [http-nio-8080-exec-7] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:53:27.837 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:53:27.838 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:53:27.838 [http-nio-8080-exec-7] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:53:27.838 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:53:27.917 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:53:27.934 [http-nio-8080-exec-8] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 17:53:27.936 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 17:53:27.937 [http-nio-8080-exec-8] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 17:54:15.092 [http-nio-8080-exec-9] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:54:15.093 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:54:15.095 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:54:15.095 [http-nio-8080-exec-9] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:54:15.096 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:54:15.170 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 17:55:18.360 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 17:55:18.361 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 17:55:18.362 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 17:55:18.362 [http-nio-8080-exec-1] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 17:55:18.362 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 17:55:18.456 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:03:00.714 [http-nio-8080-exec-3] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:03:00.715 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:03:00.718 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:03:00.718 [http-nio-8080-exec-3] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:03:00.718 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:03:00.815 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:03:00.899 [http-nio-8080-exec-4] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 18:03:00.900 [http-nio-8080-exec-4] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:03:00.903 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:03:01.799 [http-nio-8080-exec-6] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:03:01.799 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:03:01.800 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:03:01.800 [http-nio-8080-exec-6] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:03:01.800 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:03:01.801 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:04:14.642 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:04:14.643 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:04:14.644 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:04:14.644 [http-nio-8080-exec-7] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:04:14.644 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:04:14.708 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:04:14.718 [http-nio-8080-exec-8] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 18:04:14.718 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:04:14.720 [http-nio-8080-exec-8] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 18:04:45.546 [http-nio-8080-exec-9] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 18:04:45.547 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:04:45.548 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:04:45.548 [http-nio-8080-exec-9] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 18:04:45.549 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 18:04:45.554 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:04:45.565 [http-nio-8080-exec-10] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 18:04:45.565 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:04:45.566 [http-nio-8080-exec-10] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 18:04:46.877 [http-nio-8080-exec-1] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:04:46.878 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:04:46.879 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:04:46.879 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:04:46.879 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:04:46.882 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:05:39.766 [http-nio-8080-exec-2] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:05:39.766 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:05:39.767 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:05:39.767 [http-nio-8080-exec-2] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:05:39.768 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:05:39.852 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:05:39.866 [http-nio-8080-exec-3] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 18:05:39.867 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:05:39.871 [http-nio-8080-exec-3] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 18:05:41.157 [http-nio-8080-exec-4] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 18:05:41.158 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:05:41.158 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:05:41.158 [http-nio-8080-exec-4] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 18:05:41.159 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 18:05:41.163 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:05:42.686 [http-nio-8080-exec-6] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:05:42.687 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:05:42.687 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:05:42.688 [http-nio-8080-exec-6] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:05:42.688 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:05:42.688 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:11:15.027 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:11:15.028 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:11:15.030 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:11:15.030 [http-nio-8080-exec-7] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:11:15.030 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:11:15.100 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:11:15.116 [http-nio-8080-exec-8] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-05 18:11:15.118 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:11:15.120 [http-nio-8080-exec-8] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 18:11:45.794 [http-nio-8080-exec-9] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:11:45.794 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:11:45.795 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:11:45.795 [http-nio-8080-exec-9] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:11:45.795 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:11:45.862 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:12:10.267 [http-nio-8080-exec-10] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:12:10.268 [http-nio-8080-exec-10] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:12:10.269 [http-nio-8080-exec-10] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:12:10.270 [http-nio-8080-exec-10] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:12:10.270 [http-nio-8080-exec-10] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:12:10.337 [http-nio-8080-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:12:59.372 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-05 18:12:59.373 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:12:59.374 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:12:59.374 [http-nio-8080-exec-1] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-05 18:12:59.374 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-05 18:12:59.378 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-05 18:12:59.387 [http-nio-8080-exec-2] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-05 18:12:59.388 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-05 18:12:59.389 [http-nio-8080-exec-2] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-05 18:13:01.491 [http-nio-8080-exec-3] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-05 18:13:01.491 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-05 18:13:01.492 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-05 18:13:01.492 [http-nio-8080-exec-3] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-05 18:13:01.492 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-05 18:13:01.556 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:32:40.614 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 11:32:40.615 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 3969 ms
+[DEBUG] 2019-03-06 11:32:41.472 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 11:32:41.687 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 11:32:41.793 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 11:32:41.813 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 11:32:41.826 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 11:32:49.711 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 11:32:49.711 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 11:32:49.733 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 11:32:49.734 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 23 ms
+[DEBUG] 2019-03-06 11:32:49.787 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 11:32:49.816 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:32:49.882 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:32:49.882 [http-nio-8080-exec-1] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 11:32:49.892 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 11:32:51.113 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:32:51.310 [http-nio-8080-exec-2] DispatcherServlet - GET "/js/validations.js", parameters={}
+[DEBUG] 2019-03-06 11:32:51.316 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 11:32:51.343 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:32:59.427 [http-nio-8080-exec-3] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 11:32:59.431 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:32:59.882 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:32:59.882 [http-nio-8080-exec-3] JstlView - View name 'welcome', model {login=com.myInstitute.myERPSystem.model.Student@58c881c2, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:32:59.883 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/welcome.jsp]
+[DEBUG] 2019-03-06 11:33:00.134 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:33:00.171 [http-nio-8080-exec-5] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-06 11:33:00.177 [http-nio-8080-exec-5] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 11:33:00.183 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:33:02.289 [http-nio-8080-exec-6] DispatcherServlet - GET "/list-todos", parameters={}
+[DEBUG] 2019-03-06 11:33:02.292 [http-nio-8080-exec-6] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 11:33:02.295 [http-nio-8080-exec-6] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 11:33:02.296 [http-nio-8080-exec-6] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 11:33:02.297 [http-nio-8080-exec-6] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 11:33:02.310 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 11:33:02.326 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 11:33:02.345 [http-nio-8080-exec-6] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 11:33:05.931 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:33:05.936 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:33:05.942 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:33:05.943 [http-nio-8080-exec-7] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:33:05.945 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:33:06.203 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:33:07.360 [http-nio-8080-exec-8] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 11:33:07.363 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 11:33:07.368 [http-nio-8080-exec-8] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 11:33:07.368 [http-nio-8080-exec-8] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 11:33:07.370 [http-nio-8080-exec-8] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 11:33:07.374 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 11:33:07.392 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 11:33:07.392 [http-nio-8080-exec-8] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 11:33:11.231 [http-nio-8080-exec-9] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:33:11.233 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:33:11.236 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:33:11.236 [http-nio-8080-exec-9] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:33:11.237 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:33:11.250 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:33:26.652 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 11:33:26.655 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:33:26.656 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:33:26.657 [http-nio-8080-exec-1] JstlView - View name 'login', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:33:26.657 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 11:33:26.662 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:48:02.371 [http-nio-8080-exec-4] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:48:02.374 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:48:02.378 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:48:02.378 [http-nio-8080-exec-4] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:48:02.379 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:48:02.599 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:48:04.545 [http-nio-8080-exec-5] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:48:04.546 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:48:04.547 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:48:04.547 [http-nio-8080-exec-5] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:48:04.548 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:48:04.548 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:48:04.793 [http-nio-8080-exec-6] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:48:04.794 [http-nio-8080-exec-6] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:48:04.828 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:38.335 [http-nio-8080-exec-9] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:52:38.338 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:52:38.342 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:52:38.342 [http-nio-8080-exec-9] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:52:38.342 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:52:38.548 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:38.952 [http-nio-8080-exec-10] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:52:38.953 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:52:38.964 [http-nio-8080-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:49.288 [http-nio-8080-exec-2] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:52:49.290 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:52:49.292 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:52:49.293 [http-nio-8080-exec-2] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:52:49.293 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:52:49.485 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:49.766 [http-nio-8080-exec-3] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:52:49.767 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:52:49.782 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:56.312 [http-nio-8080-exec-4] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:52:56.314 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:52:56.315 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:52:56.315 [http-nio-8080-exec-4] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:52:56.315 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:52:56.503 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:52:56.793 [http-nio-8080-exec-5] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:52:56.793 [http-nio-8080-exec-5] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:52:56.802 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:05.176 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:53:05.178 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:53:05.180 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:53:05.180 [http-nio-8080-exec-7] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:53:05.181 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:53:05.395 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:05.725 [http-nio-8080-exec-8] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:53:05.725 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:53:05.731 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:27.768 [http-nio-8080-exec-10] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:53:27.770 [http-nio-8080-exec-10] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:53:27.772 [http-nio-8080-exec-10] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:53:27.772 [http-nio-8080-exec-10] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:53:27.772 [http-nio-8080-exec-10] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:53:27.950 [http-nio-8080-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:28.231 [http-nio-8080-exec-1] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:53:28.232 [http-nio-8080-exec-1] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:53:28.240 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:51.273 [http-nio-8080-exec-3] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 11:53:51.274 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 11:53:51.275 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 11:53:51.275 [http-nio-8080-exec-3] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 11:53:51.275 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 11:53:51.447 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 11:53:51.743 [http-nio-8080-exec-4] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 11:53:51.743 [http-nio-8080-exec-4] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 11:53:51.751 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:16:38.657 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 12:16:38.659 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:16:38.662 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:16:38.662 [http-nio-8080-exec-7] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:16:38.662 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:16:38.842 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:16:39.153 [http-nio-8080-exec-8] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 12:16:39.153 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 12:16:39.159 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:16:44.660 [http-nio-8080-exec-9] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 12:16:44.661 [http-nio-8080-exec-9] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 12:16:44.664 [http-nio-8080-exec-9] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 12:16:44.664 [http-nio-8080-exec-9] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 12:16:44.665 [http-nio-8080-exec-9] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 12:16:44.668 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:16:44.678 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 12:16:44.678 [http-nio-8080-exec-9] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 12:16:46.462 [http-nio-8080-exec-10] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 12:16:46.463 [http-nio-8080-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 12:16:46.464 [http-nio-8080-exec-10] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 12:16:46.465 [http-nio-8080-exec-10] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 12:16:46.465 [http-nio-8080-exec-10] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 12:16:46.467 [http-nio-8080-exec-10] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:16:46.474 [http-nio-8080-exec-10] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 12:16:46.474 [http-nio-8080-exec-10] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 12:16:46.615 [http-nio-8080-exec-1] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 12:16:46.617 [http-nio-8080-exec-1] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 12:16:46.620 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:17:10.170 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:17:10.170 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 1088 ms
+[DEBUG] 2019-03-06 12:17:10.503 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:17:10.603 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:17:10.619 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:17:10.626 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:17:10.634 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:17:56.759 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:17:56.760 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 971 ms
+[DEBUG] 2019-03-06 12:17:57.002 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:17:57.066 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:17:57.079 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:17:57.085 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:17:57.091 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 12:17:59.027 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 12:17:59.027 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 12:17:59.033 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 12:17:59.033 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 6 ms
+[DEBUG] 2019-03-06 12:17:59.034 [http-nio-8080-exec-1] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 12:17:59.037 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:17:59.044 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:17:59.045 [http-nio-8080-exec-1] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:17:59.046 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:17:59.236 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:17:59.570 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 12:17:59.570 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 12:17:59.580 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:18:01.228 [http-nio-8080-exec-3] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 12:18:01.230 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:18:01.231 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:18:01.231 [http-nio-8080-exec-3] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:18:01.232 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:18:01.233 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:18:03.955 [http-nio-8080-exec-4] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:18:03.957 [http-nio-8080-exec-4] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 12:18:03.959 [http-nio-8080-exec-4] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 12:18:03.960 [http-nio-8080-exec-4] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 12:18:03.960 [http-nio-8080-exec-4] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 12:18:03.962 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:18:03.973 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 12:18:03.973 [http-nio-8080-exec-4] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 12:18:25.599 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:18:25.599 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 670 ms
+[DEBUG] 2019-03-06 12:18:25.795 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:18:25.831 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:18:25.838 [restartedMain] RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:18:25.842 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:18:25.847 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:18:32.575 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:18:32.575 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 578 ms
+[DEBUG] 2019-03-06 12:18:32.757 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:18:32.800 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:18:32.806 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:18:32.811 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:18:32.817 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:18:41.575 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:18:41.575 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 558 ms
+[DEBUG] 2019-03-06 12:18:41.727 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:18:41.765 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:18:41.774 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:18:41.778 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:18:41.784 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:19:31.275 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:19:31.276 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 482 ms
+[DEBUG] 2019-03-06 12:19:31.462 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:19:31.503 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:19:31.509 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:19:31.513 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:19:31.517 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:19:56.603 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:19:56.603 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 507 ms
+[DEBUG] 2019-03-06 12:19:56.787 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:19:56.831 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:19:56.844 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:19:56.852 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:19:56.859 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:20:03.283 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:20:03.283 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 605 ms
+[DEBUG] 2019-03-06 12:20:03.440 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:20:03.476 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:20:03.481 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:20:03.485 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:20:03.489 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:20:49.392 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:20:49.392 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 840 ms
+[DEBUG] 2019-03-06 12:20:49.525 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:20:49.567 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:20:49.575 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:20:49.580 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:20:49.588 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:22:02.836 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:22:02.837 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 520 ms
+[DEBUG] 2019-03-06 12:22:10.017 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:22:10.017 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 462 ms
+[DEBUG] 2019-03-06 12:22:10.172 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:22:10.206 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:22:10.212 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:22:10.216 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:22:10.220 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 12:22:18.867 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 12:22:18.867 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 12:22:18.872 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 12:22:18.872 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 5 ms
+[DEBUG] 2019-03-06 12:22:18.873 [http-nio-8080-exec-1] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:22:18.874 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:22:18.877 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:22:18.877 [http-nio-8080-exec-1] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:22:18.877 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:22:19.282 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:19.555 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 12:22:19.556 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 12:22:19.562 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:22.677 [http-nio-8080-exec-3] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:22:22.678 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:22:22.681 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:22:22.681 [http-nio-8080-exec-3] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:22:22.681 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:22:22.682 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:24.427 [http-nio-8080-exec-4] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:22:24.430 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:22:24.431 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:22:24.431 [http-nio-8080-exec-4] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:22:24.431 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:22:24.444 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:25.868 [http-nio-8080-exec-5] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:22:25.868 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:22:25.869 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:22:25.869 [http-nio-8080-exec-5] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:22:25.869 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:22:25.869 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:28.692 [http-nio-8080-exec-6] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:22:28.692 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:22:28.694 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:22:28.694 [http-nio-8080-exec-6] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:22:28.694 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:22:28.700 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:22:54.734 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:22:54.734 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 500 ms
+[DEBUG] 2019-03-06 12:22:54.965 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:22:55.009 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:22:55.015 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:22:55.018 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:22:55.021 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:22:58.847 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:22:58.847 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 542 ms
+[DEBUG] 2019-03-06 12:22:59.007 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:22:59.045 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:22:59.053 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:22:59.060 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:22:59.065 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 12:23:02.978 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 12:23:02.979 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 12:23:02.984 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 12:23:02.984 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 5 ms
+[DEBUG] 2019-03-06 12:23:02.984 [http-nio-8080-exec-1] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:23:02.985 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:23:02.989 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:23:02.989 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 12:23:02.990 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:23:03.176 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:23:03.496 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 12:23:03.496 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 12:23:03.504 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:23:06.675 [http-nio-8080-exec-3] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 12:23:06.676 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:23:06.678 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:23:06.678 [http-nio-8080-exec-3] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 12:23:06.678 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 12:23:06.803 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:23:13.269 [http-nio-8080-exec-5] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 12:23:13.271 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:23:13.411 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:23:13.412 [http-nio-8080-exec-5] JstlView - View name 'welcome', model {login=com.myInstitute.myERPSystem.model.Student@7d3ff256, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:23:13.412 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/welcome.jsp]
+[DEBUG] 2019-03-06 12:23:13.569 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:23:24.714 [http-nio-8080-exec-7] DispatcherServlet - GET "/list-todos", parameters={}
+[DEBUG] 2019-03-06 12:23:24.716 [http-nio-8080-exec-7] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 12:23:24.718 [http-nio-8080-exec-7] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 12:23:24.718 [http-nio-8080-exec-7] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 12:23:24.719 [http-nio-8080-exec-7] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 12:23:24.721 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:23:24.729 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 12:23:24.729 [http-nio-8080-exec-7] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 12:23:31.423 [http-nio-8080-exec-8] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 12:23:31.424 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:23:31.424 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:23:31.426 [http-nio-8080-exec-8] JstlView - View name 'login', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:23:31.426 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 12:23:31.438 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:23:33.398 [http-nio-8080-exec-9] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 12:23:33.399 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:23:33.400 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:23:33.401 [http-nio-8080-exec-9] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:23:33.401 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:23:33.411 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:24:13.652 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 12:24:13.652 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 546 ms
+[DEBUG] 2019-03-06 12:24:13.960 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 12:24:14.001 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 12:24:14.009 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 12:24:14.013 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 12:24:14.017 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 12:24:25.570 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 12:24:25.570 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 12:24:25.578 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 12:24:25.578 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+[DEBUG] 2019-03-06 12:24:25.579 [http-nio-8080-exec-1] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 12:24:25.581 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 12:24:25.583 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:24:25.583 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 12:24:25.585 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:24:25.746 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:24:28.009 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 12:24:28.010 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:24:28.012 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:24:28.012 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 12:24:28.012 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 12:24:28.160 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 12:24:36.649 [http-nio-8080-exec-4] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 12:24:36.650 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 12:24:36.763 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 12:24:36.763 [http-nio-8080-exec-4] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@5e7418b3, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 12:24:36.763 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 12:24:36.772 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:16:36.564 [http-nio-8080-exec-7] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 16:16:36.574 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:16:36.583 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:16:36.583 [http-nio-8080-exec-7] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:16:36.584 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:16:36.604 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:16:36.803 [http-nio-8080-exec-8] DispatcherServlet - GET "/css/styles.css", parameters={}
+[DEBUG] 2019-03-06 16:16:36.806 [http-nio-8080-exec-8] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 16:16:36.837 [http-nio-8080-exec-8] DispatcherServlet - Completed 304 NOT_MODIFIED
+[DEBUG] 2019-03-06 16:16:43.834 [http-nio-8080-exec-9] DispatcherServlet - GET "/home", parameters={}
+[DEBUG] 2019-03-06 16:16:43.835 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:16:43.837 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:16:43.837 [http-nio-8080-exec-9] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:16:43.837 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:16:43.847 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:16:52.743 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:16:52.745 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:16:52.746 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:16:52.746 [http-nio-8080-exec-1] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:16:52.747 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:16:52.764 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:17:01.098 [http-nio-8080-exec-2] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:17:01.099 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:17:01.137 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:17:01.137 [http-nio-8080-exec-2] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@36e85cad, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:17:01.137 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:17:01.145 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:18:50.202 [http-nio-8080-exec-6] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:18:50.203 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:18:50.209 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:18:50.209 [http-nio-8080-exec-6] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@3cc6b7cb, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:18:50.209 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:18:50.413 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:18:50.802 [http-nio-8080-exec-5] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:18:50.803 [http-nio-8080-exec-5] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:18:50.813 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:19:00.416 [http-nio-8080-exec-8] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:19:00.417 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:19:00.422 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:19:00.422 [http-nio-8080-exec-8] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@3f3b78e9, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:19:00.422 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:19:00.573 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:19:00.902 [http-nio-8080-exec-9] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:19:00.903 [http-nio-8080-exec-9] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:19:00.916 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:20:10.027 [http-nio-8080-exec-2] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:20:10.029 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:20:10.033 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:20:10.033 [http-nio-8080-exec-2] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@72a639ab, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:20:10.034 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:20:10.277 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:20:10.515 [http-nio-8080-exec-3] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:20:10.515 [http-nio-8080-exec-3] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:20:10.524 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:20:55.809 [http-nio-8080-exec-6] DispatcherServlet - GET "/welcome", parameters={}
+[DEBUG] 2019-03-06 16:20:55.812 [http-nio-8080-exec-6] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[DEBUG] 2019-03-06 16:20:55.815 [http-nio-8080-exec-6] ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2019-03-06 16:20:55.815 [http-nio-8080-exec-6] DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2019-03-06 16:20:55.817 [http-nio-8080-exec-6] DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2019-03-06 16:20:55.820 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 16:20:55.847 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[DEBUG] 2019-03-06 16:20:55.848 [http-nio-8080-exec-6] DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2019-03-06 16:21:01.448 [http-nio-8080-exec-5] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:21:01.450 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:21:01.451 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:21:01.452 [http-nio-8080-exec-5] JstlView - View name 'login', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:21:01.452 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:21:01.467 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:21:49.082 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:21:49.082 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 949 ms
+[DEBUG] 2019-03-06 16:21:49.338 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:21:49.391 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:21:49.401 [restartedMain] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:21:49.407 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:21:49.413 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:21:54.434 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:21:54.434 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 603 ms
+[DEBUG] 2019-03-06 16:21:54.579 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:21:54.617 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:21:54.623 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:21:54.627 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:21:54.631 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:21:58.388 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:21:58.388 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 543 ms
+[DEBUG] 2019-03-06 16:21:58.551 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:21:58.605 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:21:58.616 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:21:58.626 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:21:58.632 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 16:22:02.223 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 16:22:02.224 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 16:22:02.232 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 16:22:02.232 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+[DEBUG] 2019-03-06 16:22:02.233 [http-nio-8080-exec-1] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:22:02.233 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:22:02.235 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:22:02.236 [http-nio-8080-exec-1] JstlView - View name 'login', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:22:02.236 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:22:02.441 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:22:02.622 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:22:02.622 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:22:02.628 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:22:04.046 [http-nio-8080-exec-3] DispatcherServlet - GET "/about", parameters={}
+[DEBUG] 2019-03-06 16:22:04.047 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.aboutUs(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:22:04.049 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:22:04.050 [http-nio-8080-exec-3] JstlView - View name 'about', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:22:04.050 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/about.jsp]
+[DEBUG] 2019-03-06 16:22:04.210 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:25:22.662 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:25:22.662 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 418 ms
+[DEBUG] 2019-03-06 16:25:22.790 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:25:22.824 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:25:22.831 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:25:22.834 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:25:22.837 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:07.964 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:26:07.964 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 426 ms
+[DEBUG] 2019-03-06 16:26:08.097 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:26:08.135 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:08.143 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:26:08.148 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:26:08.151 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:35.388 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:26:35.388 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 630 ms
+[DEBUG] 2019-03-06 16:26:35.509 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:26:35.537 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:35.543 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:26:35.547 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:26:35.551 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:49.570 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:26:49.570 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 599 ms
+[DEBUG] 2019-03-06 16:26:49.713 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:26:49.744 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:26:49.749 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:26:49.753 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:26:49.757 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:27:20.065 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:27:20.065 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 598 ms
+[DEBUG] 2019-03-06 16:27:20.216 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:27:20.263 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:27:20.270 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:27:20.275 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:27:20.279 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 16:27:39.555 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 16:27:39.555 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 16:27:39.560 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 16:27:39.560 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 5 ms
+[DEBUG] 2019-03-06 16:27:39.561 [http-nio-8080-exec-1] DispatcherServlet - GET "/about", parameters={}
+[DEBUG] 2019-03-06 16:27:39.562 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.aboutUs(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:27:39.565 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:27:39.565 [http-nio-8080-exec-1] JstlView - View name 'about', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:27:39.565 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/about.jsp]
+[DEBUG] 2019-03-06 16:27:39.722 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:27:40.029 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:27:40.029 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:27:40.035 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:27:42.009 [http-nio-8080-exec-3] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:27:42.010 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:27:42.011 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:27:42.012 [http-nio-8080-exec-3] JstlView - View name 'login', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:27:42.012 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:27:42.199 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:27:58.831 [http-nio-8080-exec-5] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:27:58.831 [http-nio-8080-exec-5] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:27:58.949 [http-nio-8080-exec-5] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:27:58.949 [http-nio-8080-exec-5] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@572c140e, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:27:58.949 [http-nio-8080-exec-5] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:27:59.104 [http-nio-8080-exec-5] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:29:10.068 [http-nio-8080-exec-8] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:29:10.069 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:29:10.076 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:29:10.076 [http-nio-8080-exec-8] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@f50ee6b, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:29:10.076 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:29:10.361 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:29:10.653 [http-nio-8080-exec-9] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:29:10.653 [http-nio-8080-exec-9] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:29:10.662 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:29:20.910 [http-nio-8080-exec-1] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 16:29:20.911 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 16:29:20.912 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:29:20.912 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:29:20.912 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:29:20.925 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:29:23.613 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:29:23.614 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:29:23.614 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:29:23.614 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:29:23.614 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:29:23.621 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:29:30.284 [http-nio-8080-exec-3] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:29:30.284 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:29:30.289 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:29:30.289 [http-nio-8080-exec-3] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@685c5cee, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:29:30.289 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:29:30.298 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:30:35.763 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:30:35.763 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 3311 ms
+[DEBUG] 2019-03-06 16:30:36.598 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:30:36.803 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:30:36.904 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:30:36.928 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:30:36.941 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:31:55.520 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:31:55.520 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 741 ms
+[DEBUG] 2019-03-06 16:31:55.659 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:31:55.697 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:31:55.705 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:31:55.709 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:31:55.713 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:32:15.388 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:32:15.388 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 3204 ms
+[DEBUG] 2019-03-06 16:32:16.159 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:32:16.349 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:32:16.456 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:32:16.476 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:32:16.488 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 16:32:27.218 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 16:32:27.218 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 16:32:27.238 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 16:32:27.238 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 20 ms
+[DEBUG] 2019-03-06 16:32:27.273 [http-nio-8080-exec-1] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 16:32:27.293 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:32:27.341 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:32:27.341 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:32:27.349 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:32:28.236 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:32:30.517 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:32:30.521 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:32:30.525 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:32:30.526 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:32:30.526 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:32:30.765 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:32:36.546 [http-nio-8080-exec-3] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:32:36.549 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:32:36.914 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:32:36.914 [http-nio-8080-exec-3] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@18a5a34, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:32:36.915 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:32:36.928 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:33:20.769 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:33:20.769 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 735 ms
+[DEBUG] 2019-03-06 16:33:21.039 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:33:21.103 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:33:21.114 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:33:21.120 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:33:21.125 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 16:34:59.580 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 16:34:59.581 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 16:34:59.587 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 16:34:59.588 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 7 ms
+[DEBUG] 2019-03-06 16:34:59.589 [http-nio-8080-exec-1] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:34:59.594 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:34:59.711 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:34:59.711 [http-nio-8080-exec-1] JstlView - View name 'home', model {userId=admin, login=com.myInstitute.myERPSystem.model.Student@1407d684, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:34:59.711 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:34:59.952 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:00.358 [http-nio-8080-exec-2] DispatcherServlet - GET "/favicon.ico", parameters={}
+[DEBUG] 2019-03-06 16:35:00.361 [http-nio-8080-exec-2] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[DEBUG] 2019-03-06 16:35:00.382 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:04.499 [http-nio-8080-exec-3] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 16:35:04.502 [http-nio-8080-exec-3] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 16:35:04.504 [http-nio-8080-exec-3] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:04.504 [http-nio-8080-exec-3] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:35:04.505 [http-nio-8080-exec-3] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:35:04.512 [http-nio-8080-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:06.032 [http-nio-8080-exec-4] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:35:06.035 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:35:06.037 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:06.037 [http-nio-8080-exec-4] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:35:06.037 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:35:06.243 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:14.347 [http-nio-8080-exec-6] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:35:14.349 [http-nio-8080-exec-6] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:35:14.356 [http-nio-8080-exec-6] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:14.356 [http-nio-8080-exec-6] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@1e57bb78, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:35:14.357 [http-nio-8080-exec-6] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:35:14.368 [http-nio-8080-exec-6] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:40.479 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:35:40.480 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 3741 ms
+[DEBUG] 2019-03-06 16:35:42.481 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:35:44.615 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:35:45.424 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:35:45.690 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:35:45.863 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:35:46.301 [http-nio-8080-exec-8] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 16:35:46.304 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:35:46.305 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:46.305 [http-nio-8080-exec-8] JstlView - View name 'home', model {userId=admin, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:35:46.305 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:35:46.314 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:48.693 [http-nio-8080-exec-9] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 16:35:48.695 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 16:35:48.697 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:48.697 [http-nio-8080-exec-9] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:35:48.698 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:35:48.699 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:35:49.959 [http-nio-8080-exec-10] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:35:49.961 [http-nio-8080-exec-10] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:35:49.963 [http-nio-8080-exec-10] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:35:49.963 [http-nio-8080-exec-10] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:35:49.964 [http-nio-8080-exec-10] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:35:49.971 [http-nio-8080-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:36:05.273 [http-nio-8080-exec-2] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:36:05.276 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:36:05.282 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:36:05.282 [http-nio-8080-exec-2] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@4836aa1d, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:36:05.283 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:36:05.292 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:36:36.743 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:36:36.743 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 3905 ms
+[DEBUG] 2019-03-06 16:36:38.552 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:36:40.557 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:36:41.233 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:36:41.450 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:36:41.639 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2019-03-06 16:37:03.789 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[DEBUG] 2019-03-06 16:37:03.790 [http-nio-8080-exec-1] DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2019-03-06 16:37:03.937 [http-nio-8080-exec-1] DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[INFO ] 2019-03-06 16:37:03.938 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 148 ms
+[DEBUG] 2019-03-06 16:37:04.022 [http-nio-8080-exec-1] DispatcherServlet - GET "/", parameters={}
+[DEBUG] 2019-03-06 16:37:04.077 [http-nio-8080-exec-1] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.homePage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:37:04.263 [http-nio-8080-exec-1] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:37:04.264 [http-nio-8080-exec-1] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:37:04.287 [http-nio-8080-exec-1] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:37:07.254 [http-nio-8080-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:37:09.864 [http-nio-8080-exec-2] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:37:09.890 [http-nio-8080-exec-2] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:37:09.901 [http-nio-8080-exec-2] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:37:09.903 [http-nio-8080-exec-2] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:37:09.905 [http-nio-8080-exec-2] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:37:11.141 [http-nio-8080-exec-2] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:37:17.152 [http-nio-8080-exec-4] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:37:17.175 [http-nio-8080-exec-4] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:39:43.410 [http-nio-8080-exec-4] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:39:43.412 [http-nio-8080-exec-4] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@564aa13d, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:39:43.415 [http-nio-8080-exec-4] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:39:43.439 [http-nio-8080-exec-4] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:43:43.601 [http-nio-8080-exec-7] DispatcherServlet - GET "/logoff", parameters={}
+[DEBUG] 2019-03-06 16:43:43.625 [http-nio-8080-exec-7] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.logOff(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[DEBUG] 2019-03-06 16:43:43.639 [http-nio-8080-exec-7] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:43:43.641 [http-nio-8080-exec-7] JstlView - View name 'home', model {}
+[DEBUG] 2019-03-06 16:43:43.643 [http-nio-8080-exec-7] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:43:43.675 [http-nio-8080-exec-7] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:43:44.999 [http-nio-8080-exec-8] DispatcherServlet - GET "/login", parameters={}
+[DEBUG] 2019-03-06 16:43:45.017 [http-nio-8080-exec-8] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showLoginPage(org.springframework.ui.ModelMap)
+[DEBUG] 2019-03-06 16:43:45.027 [http-nio-8080-exec-8] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:43:45.029 [http-nio-8080-exec-8] JstlView - View name 'login', model {}
+[DEBUG] 2019-03-06 16:43:45.030 [http-nio-8080-exec-8] JstlView - Forwarding to [/WEB-INF/jsp/login.jsp]
+[DEBUG] 2019-03-06 16:43:45.046 [http-nio-8080-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:43:50.820 [http-nio-8080-exec-9] DispatcherServlet - POST "/login", parameters={masked}
+[DEBUG] 2019-03-06 16:43:50.839 [http-nio-8080-exec-9] RequestMappingHandlerMapping - Mapped to public java.lang.String com.myInstitute.myERPSystem.controller.LoginController.showWelcomePage(com.myInstitute.myERPSystem.model.Student,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[DEBUG] 2019-03-06 16:45:55.849 [http-nio-8080-exec-9] ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+[DEBUG] 2019-03-06 16:45:55.850 [http-nio-8080-exec-9] JstlView - View name 'home', model {login=com.myInstitute.myERPSystem.model.Student@6e0459c3, org.springframework.validation.BindingResult.login=org.springframework.validation.BeanPropertyBindingResult: 0 errors, userId=admin, firstName=null, password=password, org.springframework.validation.BindingResult.userId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[DEBUG] 2019-03-06 16:45:55.851 [http-nio-8080-exec-9] JstlView - Forwarding to [/WEB-INF/jsp/home.jsp]
+[DEBUG] 2019-03-06 16:45:55.866 [http-nio-8080-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2019-03-06 16:49:52.089 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:49:52.090 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 1246 ms
+[DEBUG] 2019-03-06 16:49:52.443 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:49:52.590 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:49:52.625 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:49:52.654 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:49:52.669 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:14.334 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:50:14.335 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 1031 ms
+[DEBUG] 2019-03-06 16:50:14.612 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:50:14.710 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:14.736 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:50:14.747 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:50:14.753 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:21.044 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:50:21.044 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 893 ms
+[DEBUG] 2019-03-06 16:50:21.280 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:50:21.348 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:21.358 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:50:21.366 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:50:21.374 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:32.442 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:50:32.442 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 755 ms
+[DEBUG] 2019-03-06 16:50:32.685 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:50:32.749 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:32.761 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:50:32.767 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:50:32.773 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:46.927 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:50:46.927 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 865 ms
+[DEBUG] 2019-03-06 16:50:47.145 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:50:47.216 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:50:47.228 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:50:47.237 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:50:47.244 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:51:04.631 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:51:04.631 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 679 ms
+[DEBUG] 2019-03-06 16:51:04.852 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:51:04.902 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:51:04.912 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:51:04.917 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:51:04.922 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:51:20.656 [restartedMain] ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2019-03-06 16:51:20.657 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 887 ms
+[DEBUG] 2019-03-06 16:51:20.888 [restartedMain] SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[DEBUG] 2019-03-06 16:51:20.937 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2019-03-06 16:51:20.946 [restartedMain] RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2019-03-06 16:51:20.951 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2019-03-06 16:51:20.954 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice

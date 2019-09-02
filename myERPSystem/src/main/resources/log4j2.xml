@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">
+	      <!-- %d{yyyy-MM-dd HH:mm:ss.SSS} [%10.15t] %-40.40c{1.} : %m%n%ex -->
+	      <!-- %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n%ex -->
+	      [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n 
+        </Property>
+        <Property name="log-path">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <File name="App-File-Appender" fileName="${log-path}/app_log.log" >
+             <PatternLayout pattern="${LOG_PATTERN}"/>
+        </File>
+        <File name="SpringBoot-File-Appender" fileName="${log-path}/springboot_log.log" >
+             <PatternLayout pattern="${LOG_PATTERN}"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.myInstitute.myERPSystem" level="debug" additivity="false">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="App-File-Appender"/>
+        </Logger>
+        
+        <logger name="org.springframework.web" additivity="false" level="debug">
+        	<appender-ref ref="ConsoleAppender"/>
+        	<AppenderRef ref="SpringBoot-File-Appender"/>
+    	</logger>
+
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender" />
+        </Root>
+    </Loggers>
+</Configuration>

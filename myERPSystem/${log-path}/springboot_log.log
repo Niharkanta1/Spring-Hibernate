@@ -1,0 +1,14 @@
+2019-03-05 16:26:39.295 [restartedMain] o.s.w.c.ContextLoader                    : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-05 16:26:39.295 [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 446 ms
+2019-03-05 16:26:39.416 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-05 16:26:39.444 [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-05 16:26:39.454 [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2019-03-05 16:26:39.457 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-05 16:26:39.460 [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-05 16:26:41.605 [restartedMain] o.s.w.c.ContextLoader                    : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-05 16:26:41.605 [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 319 ms
+2019-03-05 16:26:41.716 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-05 16:26:41.739 [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-05 16:26:41.745 [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2019-03-05 16:26:41.749 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-05 16:26:41.752 [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
