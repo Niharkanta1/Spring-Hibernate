@@ -23,17 +23,23 @@ public class TestDBServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "jdbc:postgresql://localhost/web_customer_tracker";
+		/*String url = "jdbc:postgresql://localhost/web_customer_tracker";
 		String user = "postgres";
 		String password = "password";
-		String driver ="org.postgresql.Driver";
+		String driver ="org.postgresql.Driver";*/
+		
+		String user = "springstudent";
+		String pass = "password";		
+		String url = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&serverTimezone=UTC";
+		String driver = "com.mysql.cj.jdbc.Driver";
+		
 		Connection conn = null;
 		try {
 			PrintWriter out = response.getWriter();
 			out.println("Connecting to Postgress DB Server...."+url);
 			System.out.println("Connecting to Postgress DB Server...."+url);
 			Class.forName(driver);
-			conn = DriverManager.getConnection(url, user, password);
+			conn = DriverManager.getConnection(url, user, pass);
 			out.println("Connection successful.");
 			System.out.println("Connection successful.");
 		}
