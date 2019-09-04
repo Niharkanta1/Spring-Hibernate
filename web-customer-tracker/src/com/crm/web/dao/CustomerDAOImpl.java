@@ -3,7 +3,6 @@ package com.crm.web.dao;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +12,6 @@ import com.crm.web.entity.Customer;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {
-	
-	private static Logger logger = Logger.getLogger(CustomerDAOImpl.class);
 	
 	@Autowired
 	SessionFactory factory;
@@ -28,21 +25,13 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public void addNewCustomer(Customer customer) {
-		logger.info("Saving the customer :"+customer);
-		
+	public void addNewCustomer(Customer customer) {		
 		factory.getCurrentSession().save(customer);
-		
-		logger.info("Customer saved into database.");
 	}
 
 	@Override
 	public void updateCustomer(Customer customer) {
-		logger.info("Updating the customer :"+customer);
-		
 		factory.getCurrentSession().saveOrUpdate(customer);
-		
-		logger.info("Customer saved into database.");
 		
 	}
 
@@ -54,7 +43,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 	@Override
 	public void deleteCustomer(int id) {
-		logger.info("Deleting the customer with id="+id);
 		Query query = factory.getCurrentSession().createQuery("delete from Customer where id=:customerId");
 		query.setParameter("customerId", id);		
 		query.executeUpdate();
