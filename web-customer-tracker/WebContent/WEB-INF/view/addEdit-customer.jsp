@@ -5,7 +5,19 @@
 <jsp:include page="header.jsp"/>
     <div class="row justify-content-center">
         <div class="col-md-6">
-        <form:form action="saveCustomer" method="POST" modelAttribute="customer">
+			<c:choose>
+			    <c:when test="${param.editFlag} == 1">
+			        <h4> Edit Customer </h4> 
+			        <br />
+			    </c:when>    
+			    <c:otherwise>
+			        <h4> Add Customer </h4> 
+			        <br />
+			    </c:otherwise>
+			</c:choose>       
+        
+        <form:form action="saveCustomer?editFlag=${param.editFlag}" method="POST" modelAttribute="customer">
+        	<form:hidden path="id"/>
              <div class="form-group">
              	<label for="firstName">First Name</label>
              	<form:input type="text"  id="firstName" class="form-control" path="firstName"/>
