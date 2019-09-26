@@ -22,7 +22,7 @@ Roles: <security:authentication property="principal.authorities"/>
 </security:authorize>
 <security:authorize access="hasRole('ADMIN')">
 	<a href="${pageContext.request.contextPath}/system">Link for ADMIN Users only</a><br />
-	<<hr />
+	<hr />
 </security:authorize>
 <br />
 <form:form action="${pageContext.request.contextPath}/logout" method="POST">
